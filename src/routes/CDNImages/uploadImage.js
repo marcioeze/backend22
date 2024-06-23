@@ -11,9 +11,9 @@ const router = express.Router()
 
 
 const imageKit = new imagekit({
-    publicKey: 'public_1KaJvYpUJlOmncc2bo2ZaywGepE=',
-    privateKey: 'private_Tvm4EVFZcUJhbWpOF2XkzYb3zV4=',
-    urlEndpoint: 'https://ik.imagekit.io/marcioeze/'
+    publicKey: '',
+    privateKey: '',
+    urlEndpoint: ''
 });
 
 router.post('/subirimagen', (req, res, next) => {
